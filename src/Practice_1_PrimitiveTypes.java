@@ -13,24 +13,26 @@
  */
 public class Practice_1_PrimitiveTypes {
 	// 定义一个byte的变量x1，使得x1的大小为1
-	byte	x1	= 1;
+	byte x1	= 1;
 	// 定义一个byte的变量x2，使得x2的大小为byte可以容纳的最小值
-	byte x2=-128;
+	byte x2 = -128;
 	// 定义一个byte的变量x3，使得x3的大小为byte可以容纳的最大值
-
+	byte x3 = 127;
 	// 定义一个short的变量x4，使得x4的大小为short可以容纳的最小值
-
+	short x4 = Short.MIN_VALUE;
 	// 定义一个short的变量x5，使得x5的大小为short可以容纳的最大值
 
 	// 定义一个int的变量x6, 使得x6的大小为int可以容纳的最小值
-
+	
 	// 定义一个int的变量x7, 使得x6的大小为int可以容纳的最大值
 
 	// 定义一个long的变量x8, 使得x8的大小为int可以容纳的最小值*21【要求不能调用之前写的变量，而且必须只写一句话】
+	long x8=Integer.MIN_VALUE*21;
 	
 	// 定义一个long的变量x9, 使得x9的大小为int可以容纳的最大值*21【要求不能调用之前写的变量，而且必须只写一句话】
 	
 	// 定一个大小为-3.14的float类型变量 x10
+	float x10=-3.14;
 	
 	// 定一个大小为3.14的float类型变量 x11
 
